@@ -1,0 +1,55 @@
+#mySidenav a {
+    position: absolute;
+    right: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+body{
+    background-image: url(Atep/bc.jpg);
+    margin: 0 auto;
+    text-align: center;
+}
+#ff{
+  margin: 0 auto;
+  border: 10px outset #555;
+}
+#tt{
+     color: aliceblue;
+   background-color: #555;
+    border: medium solid black;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow:
+     4px 4px 0 #000,
+     8px 8px 0 #444,
+     12px 12px 20px rgba(0, 0, 0, 0.6);
+     font-weight: bold;
+}
+#mySidenav a:hover {
+    right: 0;
+}
+
+#about {
+    top: 20px;
+    background-color: #555;
+}
+
+#blog {
+    top: 80px;
+    background-color: #555;
+}
+
+#projects {
+    top: 140px;
+    background-color: #555;
+}
+
+#contact {
+    top: 200px;
+    background-color: #555
+}
